@@ -1,0 +1,38 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Local environment variables and secrets
+.env
+.env.local
+
+# SQLite Database
+database/*.db
+
+# Generated Security Reports (PDFs)
+reports/generated_reports/*
+!reports/generated_reports/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+scratch/
+tmp/
